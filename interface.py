@@ -13,7 +13,7 @@ a=st.number_input("a", 0., 10.,1.)
 
 intervalle=st.slider("intervalle du plot", 0.0, 100.0, (0., 50.))
 
-pas=st.slider("pas en 10^-1", 1,10)
+pas=st.slider("pas en 10^-1", 1,4)
 
 fig = plt.figure()
 
