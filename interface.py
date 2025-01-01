@@ -9,7 +9,7 @@ st.latex(r""" W(xe^{ax}) """)
 
 f=st.text_input("fonction a plot en fonction de x et a ( lisible en python ) ","a*x")
 
-a=st.number_input("a", 0., 10.,1.)
+a=st.number_input("a", 0., 100.,1.)
 
 intervalle=st.slider("intervalle du plot", 0.0, 100.0, (0., 50.))
 
