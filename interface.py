@@ -54,3 +54,6 @@ if f!="":
 st.latex(r""" W((t)xe^{ax}) """)
 st.text("en fonction de t")
 st.pyplot(fig2)
+
+
+st.write(secret)
