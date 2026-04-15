@@ -56,4 +56,4 @@ st.text("en fonction de t")
 st.pyplot(fig2)
 
 
-st.write(secret)
+st.write(st.secrets["secret"])
